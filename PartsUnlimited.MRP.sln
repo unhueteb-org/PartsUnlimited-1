@@ -15,8 +15,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{B7B176B6-8D4
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{363D2681-31A6-48C9-90BB-9ACFF4A41F06}"
 EndProject
-Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "PartsUnlimited.UnitTests", "test\PartsUnlimited.UnitTests\PartsUnlimited.UnitTests.xproj", "{0C64E1A0-7791-457B-BD8A-60CBA4979702}"
-EndProject
+#Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "PartsUnlimited.UnitTests", "test\PartsUnlimited.UnitTests\PartsUnlimited.UnitTests.xproj", "{0C64E1A0-7791-457B-BD8A-60CBA4979702}"
+#EndProject
 Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "PartsUnlimited.Models", "src\PartsUnlimited.Models\PartsUnlimited.Models.xproj", "{AF7CC9D8-E786-472B-85CD-8EE5E7429D25}"
 EndProject
 Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "PartsUnlimited.WebJobs.UpdateProductInventory", "src\PartsUnlimited.WebJobs.UpdateProductInventory\PartsUnlimited.WebJobs.UpdateProductInventory.xproj", "{6F44879B-8659-4093-B9BB-E811B286CB49}"
