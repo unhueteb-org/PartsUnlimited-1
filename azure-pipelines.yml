@@ -7,7 +7,7 @@ trigger:
 - master
 
 pool:
-  vmImage: 'windows-latest'
+  vmImage: 'VS2017-Win2016'
 
 variables:
   solution: '**/*.sln'
@@ -15,7 +15,7 @@ variables:
   buildConfiguration: 'Release'
 
 steps:
-- task: NuGetToolInstaller@1
+- task: NuGetToolInstaller@0
 
 - task: NuGetCommand@2
   inputs:
@@ -32,3 +32,8 @@ steps:
   inputs:
     platform: '$(buildPlatform)'
     configuration: '$(buildConfiguration)'
+- task: AzureRmWebAppDeployment@4
+  inputs:
+    ConnectedServiceName: ''
+    WebAppName: 
+    Package: '$(build.artifactstagingdirectory)/*.zip'
